@@ -7,6 +7,7 @@
       $hasil = mysqli_query($conn,"select * from umkm WHERE email='$_SESSION[email]'");
       $result = mysqli_query($conn, "SELECT * FROM umkm");
       $row = mysqli_fetch_array($hasil);
+      $sidebar = mysqli_query($conn, "SELECT * FROM sidebar");
       }
       
 ?>
