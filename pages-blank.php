@@ -1,3 +1,6 @@
+<?php
+require "proses/session.php";
+?>
 <!DOCTYPE html>
 <html lang="en">
 
