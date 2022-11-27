@@ -1,4 +1,3 @@
 <?php
-        $conn = mysqli_connect("localhost","root","red2002","asu")
-        or die ("koneksi gagal");
-?>
+$conn = mysqli_connect("localhost", "root", "", "asu")
+        or die("koneksi gagal");
