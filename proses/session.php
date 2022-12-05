@@ -8,6 +8,7 @@
       $result = mysqli_query($conn, "SELECT * FROM umkm");
       $row = mysqli_fetch_array($hasil);
       $sidebar = mysqli_query($conn, "SELECT * FROM sidebar");
+      $qrcode = mysqli_query($conn, "SELECT * FROM qrcode");
       }
       
 ?>
