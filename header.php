@@ -130,7 +130,7 @@
         </li>
 
         <li class="dropdown-footer">
-          <a href="#">Show all messages</a>
+          <a href="#">Show all messagesss</a>
         </li>
 
       </ul><!-- End Messages Dropdown Items -->

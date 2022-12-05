@@ -86,6 +86,7 @@ require "proses/session.php";
                             <th scope="col">Status</th>
                             <th scope="col">Start Date</th>
                             <th scope="col">Expired Date</th>
+                            <th scope="col">Action</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -94,11 +95,12 @@ require "proses/session.php";
                             <tr>
                                 <th scope="row"><?= $i ?></th>
                                 <td><?= $qr["name"] ?></td>
-                                <td><?= $qr["generatedby"] ?></td>
+                                <td><?= $qr["nama"] ?></td>
                                 <td><?php if ($qr["status"] == 1) echo "<span class='badge rounded-pill bg-success'>Aktif</span>";
                                             elseif ($qr["status"] == 2) echo "<span class='badge rounded-pill bg-danger'>Expired</span>" ?></td>
                                 <td><?= $qr["startdate"] ?></td>
                                 <td><?= $qr["expdate"] ?></td>
+                                <td><span class='badge rounded-pill bg-warning'>Lihat</span></td>
                             </tr>
                         <?php endforeach; ?>
                         <?php $i++; ?>
